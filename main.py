@@ -11,10 +11,10 @@ En sa qualité de deuxième objet céleste du ciel terrestre par sa magnitude ap
 # cette fonction charge les articles les uns apres les autres
 # et extrait les mots-cles.
 def charger_et_preparer():
-    # charger un article en memoire
-    # decouper l'article en phrases
-    # pour chaque phrase, decoupe en mots
-    # compter tous les mots
+    # 1. charger un article en memoire
+    # 2. decouper l'article en phrases
+    # 3. pour chaque phrase, decoupe en mots
+    # 4. compter tous les mots
     pass
 
 def question_et_repondre():
