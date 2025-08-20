@@ -20,6 +20,9 @@ def charger_et_preparer():
 def question_et_repondre():
     pass
 
+def fin_du_programme():
+    exit("Au revoir.")
+
 if __name__ == '__main__':
     # 1. charger les articles et preparer les reponses
     charger_et_preparer()
