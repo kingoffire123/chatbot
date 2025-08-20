@@ -28,4 +28,3 @@ if __name__ == '__main__':
     charger_et_preparer()
     # 2. poser des questions et repondre
     question_et_repondre()
-
