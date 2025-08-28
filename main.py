@@ -85,14 +85,18 @@ if __name__ == '__main__':
         "lune.txt",
         "terre.txt",
         "mars.txt",
-        "systeme_solaire.txt"
+        "systeme_solaire.txt",
+        "chat.txt"
     ])
     # 2. poser des questions et repondre
     questions = [
         "Quelle est la masse de la lune par rapport a celle de la terre ?",
-        "Quel est l'ordre des planètes dans le système solaire ?"
+        "Quel est l'ordre des planètes dans le système solaire ?",
+        "Que sont Uranus et Neptune ?",
+        "Que mangent les chats ?",
+        "Les chats sont-ils de bons animaux domestiques?"
     ]
     for q in questions:
         print ("\n>",q)
-        for r in meilleures_reponses(q, phrases_par_mot, phrases, 2):
+        for r in meilleures_reponses(q, phrases_par_mot, phrases, 1):
             print (r)
